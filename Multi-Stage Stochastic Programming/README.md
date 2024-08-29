@@ -1,6 +1,6 @@
-Implemented Functions
+###Implemented Functions
 
-1. Expected-Value (EV) Program
+**1. Expected-Value (EV) Program**
 This function focuses on making day-one decisions by considering both today’s known prices and expected prices for tomorrow. The decision-making process involves:
 
 • Horizon of Two Days: The function considers a two-day horizon, making decisions for today based on the expected value of tomorrow’s prices.
@@ -11,8 +11,8 @@ This function focuses on making day-one decisions by considering both today’s 
 
 The data for this problem, including warehouse capacities, costs, and initial coffee levels, are sourced from the file V2_02435_two_stage_problem_data.jl. The stochastic process for predicting coffee prices is modeled using the sample_next function in V2_price_process.jl. This function allows the estimation of expected second-stage prices by averaging over 1,000 samples from the price process.
 
-2. Optimal-in-Hindsight Function
-
+**2. Optimal-in-Hindsight Function
+**
 This function is designed to evaluate the optimal decisions that could have been made if future prices were known in advance. It receives the coffee prices for both days and determines:
 
 • Stage-One and Stage-Two Decisions: The optimal quantities to order, transfer, or store on both days.
