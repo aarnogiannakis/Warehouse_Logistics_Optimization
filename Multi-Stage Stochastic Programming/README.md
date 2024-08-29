@@ -42,3 +42,6 @@ To evaluate the effectiveness of the implemented functions, we perform the follo
 3. Second-Stage Prices: Generate the second-stage prices using the sample_next function.
 4. Cost Calculation: For each program, determine the total cost over the two stages by solving a deterministic program for the second stage based on the revealed prices.
 5. Simulation of Optimal-in-Hindsight: Simulate the Optimal-in-Hindsight solution for the same 100 experiments as if future prices were known.
+
+
+The results of this evaluation help identify which approach yields the best cost minimization under uncertainty.
