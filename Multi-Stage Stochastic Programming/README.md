@@ -1,4 +1,5 @@
 **1. Expected-Value (EV) Program**
+
 This function focuses on making day-one decisions by considering both today’s known prices and expected prices for tomorrow. The decision-making process involves:
 
 • Horizon of Two Days: The function considers a two-day horizon, making decisions for today based on the expected value of tomorrow’s prices.
@@ -33,6 +34,7 @@ This function aims to make a robust, stochastic decision for day one by consider
 
 
 **Evaluation and Comparison**
+
 To evaluate the effectiveness of the implemented functions, we perform the following steps:
 
 Generate 100 Experiments: For each experiment, randomly generate initial prices uniformly from [0, 10].
