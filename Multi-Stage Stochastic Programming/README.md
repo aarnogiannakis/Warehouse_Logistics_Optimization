@@ -37,8 +37,8 @@ This function aims to make a robust, stochastic decision for day one by consider
 
 To evaluate the effectiveness of the implemented functions, we perform the following steps:
 
-Generate 100 Experiments: For each experiment, randomly generate initial prices uniformly from [0, 10].
-Decision Making: For each experiment, apply each program (Expected-Value, Optimal-in-Hindsight, and the three versions of the Stochastic Program) to make a here-and-now decision for day one.
-Second-Stage Prices: Generate the second-stage prices using the sample_next function.
-Cost Calculation: For each program, determine the total cost over the two stages by solving a deterministic program for the second stage based on the revealed prices.
-Simulation of Optimal-in-Hindsight: Simulate the Optimal-in-Hindsight solution for the same 100 experiments as if future prices were known.
+1. Generate 100 Experiments: For each experiment, randomly generate initial prices uniformly from [0, 10].
+2. Decision Making: For each experiment, apply each program (Expected-Value, Optimal-in-Hindsight, and the three versions of the Stochastic Program) to make a here-and-now decision for day one.
+3. Second-Stage Prices: Generate the second-stage prices using the sample_next function.
+4. Cost Calculation: For each program, determine the total cost over the two stages by solving a deterministic program for the second stage based on the revealed prices.
+5. Simulation of Optimal-in-Hindsight: Simulate the Optimal-in-Hindsight solution for the same 100 experiments as if future prices were known.
