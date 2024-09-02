@@ -35,7 +35,7 @@ This function aims to make a robust, stochastic decision for day one by consider
 
 
 
-**Evaluation and Comparison**
+**4. Evaluation and Comparison**
 
 To evaluate the effectiveness of the implemented functions, we perform the following steps:
 
