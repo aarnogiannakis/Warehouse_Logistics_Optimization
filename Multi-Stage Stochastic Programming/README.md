@@ -1,3 +1,5 @@
+# Part A of the repository
+
 **1. Expected-Value (EV) Program**
 
 This function focuses on making day-one decisions by considering both today’s known prices and expected prices for tomorrow. The decision-making process involves:
