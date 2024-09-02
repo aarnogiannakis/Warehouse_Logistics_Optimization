@@ -25,7 +25,7 @@ This function is designed to evaluate the optimal decisions that could have been
 
 
 
-3. Two-Stage Stochastic Programming
+**3. Two-Stage Stochastic Programming**
 This function aims to make a robust, stochastic decision for day one by considering multiple scenarios for day two:
 
 • Scenario Generation: It generates 1,000 equally probable scenarios for day two prices using sample_next and then reduces them to a specified number 𝑁 (5, 20, or 50) of representative scenarios with appropriate probabilities.
