@@ -47,3 +47,9 @@ To evaluate the effectiveness of the implemented functions, we perform the follo
 
 
 The results of this evaluation help identify which approach yields the best cost minimization under uncertainty.
+
+
+**5. Multi-Stage Policy**
+
+The policy, similarly to before, receives the current prices as input and returns a here-and-now decision, and must make a decision within 1 second give or take, and certainly in no more than 3 seconds. The policy should use no more than 1000 samples for scenario generation, and no more than 6,500 variables for the
+stochastic program
